@@ -42,3 +42,14 @@ function initWeather() {
         displayFiveDayForecast();
     }
 }
+
+// This function saves the city array to local storage
+function storeCityArray() {
+    localStorage.setItem("cities", JSON.stringify(cityList));
+    }
+
+// This function saves the currently display city to local storage
+function storeCurrentCity() {
+
+    localStorage.setItem("currentCity", JSON.stringify(cityname));
+}

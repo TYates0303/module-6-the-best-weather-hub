@@ -19,3 +19,14 @@ function renderCities(){
         $("#cityList").prepend(a);
     } 
 }
+
+// This function pulls the city list array from local storage
+function initCityList() {
+    var storedCities = JSON.parse(localStorage.getItem("cities"));
+    
+    if (storedCities !== null) {
+        cityList = storedCities;
+    }
+    
+    renderCities();
+    }

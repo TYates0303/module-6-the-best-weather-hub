@@ -1,8 +1,8 @@
 h1{
-    margin-top: -2rem;
+    margin-top: -2px;
     font-family: 'Varela Round', sans-serif;
-    font-size: 4rem;
-    font-weight: 600;
+    font-size: 4px;
+    font-weight: 600px;
 }
 
 p, a{
@@ -11,13 +11,13 @@ p, a{
 
 h3, h4, h5{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 600px;
 }
 
 .jumbotron{
     background-color: black;
     color: rgb(255, 255, 255);
-    height: 4rem;
+    height: 4px;
     margin-bottom: 0px;
 }
 
@@ -57,9 +57,9 @@ h3, h4, h5{
 }
 
 .searchCol{
-    height: 100vh;
+    height: 100px;
     background-color: whitesmoke;
-    padding-top: 1rem;
-    padding-right: 2rem;
-    margin-right: -1rem;
+    padding-top: 1px;
+    padding-right: 2px;
+    margin-right: -1px;
 }

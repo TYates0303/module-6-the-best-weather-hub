@@ -145,7 +145,7 @@ async function displayWeather() {
 // This function runs the AJAX call for the 5 day forecast and displays them to the DOM
 async function displayFiveDayForecast() {
 
-    var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q="+cityname+"&units=imperial&appid=d3b85d453bf90d469c82e650a0a3da26";
+    var queryURL = "https//api.openweathermap.org/data/2.5/weather?q="+ cityname + "&appid=016803831647ee7e111761888a57b081";
 
     var response = await $.ajax({
         url: queryURL,
